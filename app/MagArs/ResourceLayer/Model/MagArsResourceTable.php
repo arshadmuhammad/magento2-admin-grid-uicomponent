@@ -14,7 +14,7 @@ use Magento\Framework\Model\AbstractModel;
 class MagArsResourceTable extends AbstractModel {
 
     protected function _construct() {
-        $this->_init();
+        $this->_init(\MagArs\ResourceLayer\Model\ResourceModel\MagArsResourceTable::class);
     }
 
 }

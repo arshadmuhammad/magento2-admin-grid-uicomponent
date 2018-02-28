@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="MagArs_ResourceLayer::magarsresourcemodel" title="Resource Table Grid" module="MagArs_ResourceLayer" resource="MagArs_ResourceLayer::magarsresourcemodel"
+             translate="title" sortOrder="10" action="magarsresourcemodel"/>
+    </menu>
+</config>
